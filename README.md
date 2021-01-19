@@ -1,8 +1,8 @@
 # Transformation Portal Fornt End README.md
 
 ## Clone This Repo
-1. For SSH ```git clone git@gitlab.com:biyekorun/transformation-portal-fe.git```
-2. For HTTPS ```https://gitlab.com/biyekorun/transformation-portal-fe.git```
+1. For SSH ```git clone git@github.com:biyekorun/transformation-portal-fe.git```
+2. For HTTPS ```https://github.com/biyekorun/transformation-portal-fe.git```
 
 ## Build
 1. After clone this ropository got to your dir where it cloned. (exp. c:/Download/transformation-portal-fe/)
