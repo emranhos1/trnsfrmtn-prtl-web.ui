@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Courses.css';
-import 'react-phone-number-input/style.css'
-import PhoneInput from 'react-phone-number-input'
+//import 'react-phone-number-input/style.css'
+//import PhoneInput from 'react-phone-number-input'
 
 class Courses extends Component {
     constructor(props) {
@@ -38,15 +38,16 @@ class Courses extends Component {
                     <div className="courses-info">
                         <form onSubmit={this.handleSubmit}>
                             <label>Full Name :
-                            <input placeholder="Enter Your Full Name"    type="text"  value={this.state.fullName} onChange={this.handleChange} />
+                            <input placeholder="Enter Your Full Name"    type="text"   value={this.state.fullName} onChange={this.handleChange} />
                             </label>
                             <label>Email :
-                            <input placeholder="Enter Your Email"        type="email" value={this.state.email}    onChange={this.handleChange} />
+                            <input placeholder="Enter Your Email"        type="email"  value={this.state.email}    onChange={this.handleChange} />
                             </label>
                             <label>Cell No :
+                            <input placeholder="Enter Your Cell No"      type="number" value={this.state.cellNo}   onChange={this.handleChange} />
                             {/* <PhoneInput placeholder="Enter phone number"               /> */}
                             </label>
-                            <input type="submit" value="Submit" />
+                            <input className="btn btn-primary m-5" type="submit" value="Submit" />
                         </form>
                     </div>
                 </div>    
